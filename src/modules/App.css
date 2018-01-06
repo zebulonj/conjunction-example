@@ -1,0 +1,44 @@
+body,
+input,
+textarea {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+}
+
+form {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body,
+:global(#content),
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+}
+
+.appContainer {
+  position: relative;
+  padding-bottom: 100px;
+}

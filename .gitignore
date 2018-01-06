@@ -1,0 +1,12 @@
+.local
+node_modules
+build
+public/*.js
+public/*.css
+.ssh
+
+.env
+.envrc
+manifest.json
+
+*.log

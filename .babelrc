@@ -1,0 +1,18 @@
+{
+  "presets": [
+    "flow",
+    "react",
+    "es2015",
+    "stage-1"
+  ],
+  "plugins": [
+    ["module-resolver", {
+      "root": ["./src/modules"]
+    }],
+    ["css-modules-transform", {
+        "generateScopedName": "[local]--[hash:base64:5]",
+        "extensions": [".css"]
+      }
+    ]
+  ]
+}
